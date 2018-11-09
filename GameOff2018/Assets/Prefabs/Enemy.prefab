@@ -163,7 +163,7 @@ Animator:
   m_GameObject: {fileID: 1908653872498474}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e734ceae2b6f34cc5aa382203cf81a1f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 79803ecedaa7c437b9364fb38b0541ac, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -180,12 +180,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1908653872498474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5bfaa7f3f25b4fa09e0e35be9c264c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 9473d314073f841e9886950f8fe8d63f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  effect: {fileID: 1092575282667752, guid: fbd62107f9179432dab5d9861c72584d, type: 2}
-  collideSound: {fileID: 8300000, guid: f2882c866e72c4440a6de6d9326f5a79, type: 3}
+  speed: 10
+  effect: {fileID: 1092575282667752, guid: 86b552865f4b34475ae7c0926b9c389c, type: 2}
+  collideSound: {fileID: 0}
 --- !u!212 &212889174534865102
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -221,7 +221,7 @@ SpriteRenderer:
   m_SortingLayerID: 177100801
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d52ef9e0b035c4099932038ef280c19e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a531eec80947469999552be11948f03, type: 3}
   m_Color: {r: 0.4120558, g: 0.8113208, b: 0.2028302, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -233,7 +233,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1486841869}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &218032189
 GameObject:
@@ -525,7 +525,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1486841869}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1473625444
 GameObject:
@@ -579,10 +579,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1486841867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8583547bf59f5409fb7774f7a8a9cc20, type: 3}
+  m_Script: {fileID: 11500000, guid: 67b8a0d1a280e4452a07defba64ac93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1908653872498474, guid: b4a7cd03ca8fb4cfaa04712419a1d637, type: 2}
+  enemy: {fileID: 1908653872498474, guid: 843157f902b714aca9b3b088c9612a4f, type: 2}
   spawnSpots:
   - {fileID: 1280492726}
   - {fileID: 1891280661}
@@ -603,10 +603,10 @@ Transform:
   m_LocalPosition: {x: 0.25753993, y: 0.62295854, z: -0.1573601}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1280492726}
-  - {fileID: 1891280661}
   - {fileID: 149826489}
+  - {fileID: 1891280661}
   - {fileID: 1923778069}
+  - {fileID: 1280492726}
   - {fileID: 1583108384}
   - {fileID: 2107679121}
   - {fileID: 1473625445}
@@ -799,7 +799,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1486841869}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1974135247
 GameObject:
@@ -810,7 +810,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1974135252}
   - component: {fileID: 1974135251}
-  - component: {fileID: 1974135250}
   - component: {fileID: 1974135249}
   - component: {fileID: 1974135253}
   - component: {fileID: 1974135248}
@@ -851,30 +850,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1974135247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cae9b3e089db4ffb80594838c9c8b33, type: 3}
+  m_Script: {fileID: 11500000, guid: dc40d3801aac44c368fb3c79cb7f58a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  health: 10
+  speed: 10
+  health: 25
   healthDisplay: {fileID: 1864261548}
---- !u!95 &1974135250
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1974135247}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2ff78ed9449884f78b058b8d455c6148, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1974135251
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -907,10 +888,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 177100801
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 214905f5174f042bcb275821987b81c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bfef25e352d274eb295422c709a5f7a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -942,11 +923,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1974135247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623a31c76a51143aca0e8ab1d9b4f41f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cff88a580b0344dbba38dd23475f7d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 1564037990809066, guid: 1758eff1ba67246c086673d5e859fc5a, type: 2}
-  shootSound: {fileID: 8300000, guid: d9d88089ad7524578b2ea096abedc7c8, type: 3}
+  shot: {fileID: 1564037990809066, guid: dff0ab3ad6cd446759b09c187bb9e558, type: 2}
+  shootSound: {fileID: 0}
 --- !u!58 &1974135254
 CircleCollider2D:
   m_ObjectHideFlags: 0
